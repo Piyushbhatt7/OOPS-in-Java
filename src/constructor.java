@@ -3,8 +3,12 @@ class  Student{
     String name;
     int age;
 
-    Student(){                     // constructor declaration same as class name
-        System.out.println("constructor called");    
+    // Student(){                     // constructor declaration same as class name   { DEFAULT constructor }
+    //     System.out.println("constructor called");     
+    // }
+
+    Student(String name, int age){
+              
     }
 }
 
