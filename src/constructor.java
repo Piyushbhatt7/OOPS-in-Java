@@ -10,6 +10,7 @@ class  Student{
    Student(String name, int age){
         this.name = name;
         this.age = age;
+        System.out.println(name + " " + age);
    }
 }
 
