@@ -19,7 +19,7 @@ class  Student{
         this.age = obj1.age;
         System.out.println(name + " " + age);
      }
-}
+} 
 
 public class constructor {
     
@@ -28,7 +28,7 @@ public class constructor {
 
         // Student obj = new Student("Piyush", 20);   // { PARAMETERIZED constructor }
 
-        Student obj = new Student();               // { COPY constructor }
+        Student obj = new Student();                   // { COPY constructor }
         obj.name = "Piyush";
         obj.age = 20;
  
