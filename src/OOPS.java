@@ -6,6 +6,10 @@ class Pen{
     public void write(){
         System.out.println("Writing somthing..");
     }
+
+    public void printcolor(){
+        
+    }
 }
 
 public class OOPS {
