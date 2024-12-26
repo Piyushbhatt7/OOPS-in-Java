@@ -7,7 +7,7 @@ class  Student{
     //     System.out.println("constructor called");     
     // }
 
-//    Student(String name, int age){
+//    Student(String name, int age){   // { PARAMETERIZED constructor}
 //         this.name = name;
 //         this.age = age;
 //         System.out.println(name + " " + age);
@@ -17,8 +17,8 @@ class  Student{
 public class constructor {
     
     public static void main(String[] args) {
-        //Student obj = new Student();   // constructor call when object declared  
+        //Student obj = new Student();   // constructor call when object declared     { DEFAULT constructor }
 
-        // Student obj = new Student("Piyush", 20);
+        // Student obj = new Student("Piyush", 20);   // { PARAMETERIZED constructor}
     }
 }
