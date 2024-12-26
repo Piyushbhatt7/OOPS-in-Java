@@ -8,7 +8,7 @@ class Pen{
     }
 
     public void printcolor(){
-        
+        System.out.println(this.color);
     }
 }
 
