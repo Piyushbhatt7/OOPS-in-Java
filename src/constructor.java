@@ -34,6 +34,5 @@ public class constructor {
  
     Student obj1 = new Student(obj);
 
-
     }
 }
