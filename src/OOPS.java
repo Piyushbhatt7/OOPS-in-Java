@@ -4,7 +4,7 @@ class Pen{
     String type; // balllpoint , gelpoint
 
     public void write(){
-        System.out.println("Writing somthing.somthing..");
+        System.out.println("Writing somthing..");
     }
 }
 
