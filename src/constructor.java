@@ -1,14 +1,14 @@
 class  Student{
        
-    String name;
-    int age;
+    // String name;
+    // int age;
 
     // Student(){                     // constructor declaration same as class name   { DEFAULT constructor }
     //     System.out.println("constructor called");     
     // }
 
     Student(String name, int age){
-              
+              this.name
     }
 }
 
