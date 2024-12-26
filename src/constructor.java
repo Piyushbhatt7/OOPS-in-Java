@@ -11,6 +11,6 @@ class  Student{
 public class constructor {
     
     public static void main(String[] args) {
-        Student obj = new Student();
+        Student obj = new Student();   // constructor call when object declared
     }
 }
