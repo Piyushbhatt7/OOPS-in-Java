@@ -19,7 +19,14 @@ public class OOPS {
         Pen pen1 = new Pen();
         pen1.color = "Blue";
         pen1.type = "Ballpoint";
+
+        Pen pen2 = new Pen();
+        pen2.color = "Red";
+        pen2.type = "Gelpoint";
         pen1.write();
+
+        pen1.printcolor();
+        pen2.printcolor();
     }
     
 }
