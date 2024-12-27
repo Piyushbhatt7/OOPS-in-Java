@@ -14,5 +14,6 @@ public class Inheitance {
         
         Triangle t1 = new Triangle();
         t1.color = "red";
+        System.out.println(t1.color);
     }
 }
