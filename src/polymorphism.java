@@ -9,7 +9,7 @@ class myclass {
     }
 
     public void info(String name, int age){
-        
+         System.out.println(name + " " + age);
     }
 }
 
