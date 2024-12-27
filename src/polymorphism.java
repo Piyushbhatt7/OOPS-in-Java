@@ -1,4 +1,6 @@
 class myclass {
+    public String name;
+    public int age;
 
     public void info(int age){
         System.out.println(age);
@@ -17,5 +19,10 @@ class myclass {
 
 public class polymorphism {
     
+    public static void main(String[] args) {
+        myclass obj = new myclass();
+        obj.name = "Piyush";
+        
+    }
 
 }
