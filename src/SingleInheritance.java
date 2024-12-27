@@ -13,6 +13,8 @@ class Triangle extends Shape{
 
 public class SingleInheritance {
     public static void main(String[] args) {
+        Triangle obj = new Triangle();
+        obj.area();
         
     }
 }
