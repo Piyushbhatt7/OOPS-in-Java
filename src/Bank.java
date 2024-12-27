@@ -1,6 +1,7 @@
 
 class Account {
     public String name;
+    protected String email;
 }
 public class Bank {
     public static void main(String[] args) {
