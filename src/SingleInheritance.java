@@ -6,8 +6,8 @@ class Shape {
 }
 
 class Triangle extends Shape{
-          public void area(int legth, int height){
-              System.out.println(1/2*legth*height);
+          public double area(int legth, int height){
+              return 0.5 * legth * height;
           }
 }
 
@@ -15,6 +15,7 @@ public class SingleInheritance {
     public static void main(String[] args) {
         Triangle obj = new Triangle();
         obj.area();
-        
+        System.out.println("Area: " + obj.area(12, 18));
+
     }
 }
