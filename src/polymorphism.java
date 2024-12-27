@@ -8,7 +8,9 @@ class myclass {
         System.out.println(name);
     }
 
-    public 
+    public void info(String name, int age){
+        
+    }
 }
 
 
