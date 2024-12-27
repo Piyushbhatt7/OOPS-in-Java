@@ -13,16 +13,13 @@ class Triangle extends Shape{
 }
 
 
-class EquilateralTriangle extends Triangle {
+class Circle extends Shape {
           
     public double  area(int length, int height){
         System.out.println("EquilateralTriangle");
              return 0.5 * length * height;
     }
 }
-
-
-
 
 
 
