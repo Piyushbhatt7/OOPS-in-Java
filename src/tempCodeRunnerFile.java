@@ -1,2 +1,1 @@
-  String name;
-    int age;
+
