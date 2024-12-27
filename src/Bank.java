@@ -3,6 +3,16 @@ class Account {
     public String name;
     protected String email;
     private String password;
+
+    // getters & setters        // get the vale and to set the value
+
+    public String getPassword(){
+        return this.password;
+    }
+
+    public String setPassword(String pass){
+        this.password = pass;
+    }
 }
 public class Bank {
     public static void main(String[] args) {
