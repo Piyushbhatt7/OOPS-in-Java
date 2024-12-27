@@ -6,7 +6,9 @@ class Shape {
 }
 
 class Triangle extends Shape{
-          
+          public area(int legth, int height){
+
+          }
 }
 
 public class SingleInheritance {
