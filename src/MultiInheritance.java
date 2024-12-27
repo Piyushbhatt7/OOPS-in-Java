@@ -13,7 +13,10 @@ class Triangle extends Shape{
 
 
 class EquilateralTriangle extends Triangle {
-
+          
+    public double  area(int length, int height){
+             return 0.5 * length * height;
+    }
 }
 
 
