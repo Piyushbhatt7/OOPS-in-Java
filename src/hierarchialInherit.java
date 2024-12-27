@@ -6,9 +6,9 @@ class Shape {
 }
 
 class Triangle extends Shape{
-          public double area(int legth, int height){
+          public double area(int length, int height){
             System.out.println("Triangle");
-              return 0.5 * legth * height;
+              return 0.5 * length * height;
           }
 }
 
@@ -16,8 +16,8 @@ class Triangle extends Shape{
 class Circle extends Shape {
           
     public double  area(int r){
-        System.out.println("EquilateralTriangle");
-             return ((3.14) *r*r);
+        System.out.println("Circle");
+             return (3.14) *r*r;
     }
 }
 
