@@ -22,7 +22,9 @@ public class polymorphism {
     public static void main(String[] args) {
         myclass obj = new myclass();
         obj.name = "Piyush";
-        
+        obj.age = 21;
+
+        obj.info(obj.name, obj.age);
     }
 
 }
