@@ -10,10 +10,10 @@ class Account {
         return this.password;
     }
 
-    public String setPassword(String pass){
-        this.password = pass;
-    }
+public void setPassword(String pass){
+    this.password = pass;
 }
+ }
 public class Bank {
     public static void main(String[] args) {
         Account ac1 = new  Account();
@@ -22,6 +22,9 @@ public class Bank {
         ac1.email = "pussy345@gmail.com";
         System.out.println(ac1.email);
        //  ac1.password = "pppss";    // can't access the private
+
+       ac1.setPassword("Poopyboy");
+       System.out.println(ac1.getPassword());
 
     }
 }
