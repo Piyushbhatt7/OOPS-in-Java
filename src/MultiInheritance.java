@@ -15,6 +15,7 @@ class Triangle extends Shape{
 class EquilateralTriangle extends Triangle {
           
     public double  area(int length, int height){
+        System.out.println("EquilateralTriangle");
              return 0.5 * length * height;
     }
 }
