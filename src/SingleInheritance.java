@@ -5,8 +5,8 @@ class Shape {
     }
 }
 
-class Triangle {
-    
+class Triangle extends Shape{
+          
 }
 
 public class SingleInheritance {
