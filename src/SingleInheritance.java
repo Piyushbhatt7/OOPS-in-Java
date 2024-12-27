@@ -6,8 +6,8 @@ class Shape {
 }
 
 class Triangle extends Shape{
-          public area(int legth, int height){
-
+          public void area(int legth, int height){
+              System.out.println(1/2*legth*height);
           }
 }
 
