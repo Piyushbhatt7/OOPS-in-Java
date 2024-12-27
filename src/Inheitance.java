@@ -1,6 +1,10 @@
 class Shape {
 
     String color;
+
+}
+
+class Triangle extends Shape{
     
 }
 
