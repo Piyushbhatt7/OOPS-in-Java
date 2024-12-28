@@ -1,4 +1,4 @@
-class Animal{
+abstract  class Animal{
 
     public void walk(){
 
