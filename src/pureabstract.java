@@ -1,7 +1,7 @@
 interface Animal {
     
     int eyes = 2;         // final value and public
-    public void walk();
+     void walk();
                                       // can't use non abstract function
 }
 
