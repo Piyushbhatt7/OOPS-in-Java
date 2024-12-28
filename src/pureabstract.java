@@ -13,6 +13,7 @@ class Horse implements Animal{
 
 public class pureabstract {
     public static void main(String[] args) {
-        
+        Horse hor = new Horse();
+        hor.walk();
     }
 }
