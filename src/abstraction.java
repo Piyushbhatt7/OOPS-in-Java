@@ -1,8 +1,6 @@
 abstract  class Animal{
 
-    public void walk(){
-
-    }
+    abstract  void walk();         // abstract function
 }
 
 class Horse extends Animal {
